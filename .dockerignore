@@ -1,0 +1,12 @@
+venv
+__pycache__
+.git
+.chainlit
+.env
+.gitignore
+*.pyc
+*.pyo
+*.pyd
+chunks.db
+.cache
+*.log

@@ -1,0 +1,12 @@
+flask
+chainlit
+httpx
+numpy
+langchain
+langchain-huggingface
+langchain-groq
+sentence-transformers
+python-dotenv
+python-decouple
+requests
+beautifulsoup4
