@@ -104,7 +104,3 @@ python rag_api.py
 ```bash
 chainlit run chainlit_app.py --port 8000
 ```
-
-## Git
-
-Δεν ανεβαίνουν στο repository τα `.env`, `chunks.db`, virtual environments, caches ή logs. Η βάση ανακατασκευάζεται από το `ds_content.json` με το `build_index.py`.
