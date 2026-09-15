@@ -10,3 +10,5 @@ python-dotenv
 python-decouple
 requests
 beautifulsoup4
+pandas
+ragas

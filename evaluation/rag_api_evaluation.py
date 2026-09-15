@@ -386,7 +386,9 @@ def ask():
             "answer": "Δεν βρέθηκε σχετική πληροφορία.",
             "sources": [],
             "top_k": k,
-            "retrieval": "hybrid_rrf"
+            "best_semantic_score": None,
+            "retrieval": "hybrid_rrf",
+            "retrieved_contexts": []
         })
 
     context = "\n\n---\n\n".join(h["text"] for h in hits)
@@ -424,7 +426,8 @@ def ask():
         "sources": unique_sources,
         "top_k": k,
         "best_semantic_score": best_semantic_score,
-        "retrieval": "hybrid_rrf"
+        "retrieval": "hybrid_rrf",
+        "retrieved_contexts": [h["text"] for h in hits]
     })
 
 

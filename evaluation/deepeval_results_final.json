@@ -1,0 +1,198 @@
+{
+  "samples_expected": 20,
+  "samples_processed": 20,
+  "valid_scores": 20,
+  "evaluator_llm": "openai/gpt-oss-120b",
+  "metric": "Answer Relevancy",
+  "method": "plain-text LLM-as-a-judge; resume enabled; no structured output/tool calling",
+  "overall_mean": 0.975,
+  "category_means": {
+    "Πραγματολογικό": 1.0,
+    "Παραφρασμένο": 1.0,
+    "Εξειδικευμένοι όροι": 1.0,
+    "Σύνθετο": 0.875,
+    "Ανεπαρκής πληροφορία": 1.0
+  },
+  "results": [
+    {
+      "id": "Q01",
+      "category": "Πραγματολογικό",
+      "question": "Πόσα εξάμηνα διαρκεί το Προπτυχιακό Πρόγραμμα Σπουδών του Τμήματος Ψηφιακών Συστημάτων;",
+      "answer": "Το Προπτυχιακό Πρόγραμμα Σπουδών του Τμήματος Ψηφιακών Συστημάτων διαρκεί οκτώ (8) ακαδημαϊκά εξάμηνα.",
+      "answer_relevancy": 1.0,
+      "reason": "The response directly answers the question by stating the program lasts eight semesters.",
+      "raw_judge_output": "SCORE: 1.0\nREASON: The response directly answers the question by stating the program lasts eight semesters."
+    },
+    {
+      "id": "Q02",
+      "category": "Πραγματολογικό",
+      "question": "Πόσες πιστωτικές μονάδες ECTS αντιστοιχούν στο Προπτυχιακό Πρόγραμμα Σπουδών;",
+      "answer": "Το Προπτυχιακό Πρόγραμμα Σπουδών (Π.Π.Σ.) του Τμήματος Ψηφιακών Συστημάτων αντιστοιχεί σε **240 πιστωτικές μονάδες ECTS**. (Πηγή: το Π.Π.Σ. του Τμήματος είναι διάρκειας οκτώ εξαμήνων και αντιστοιχεί σε 240 ECTS.)",
+      "answer_relevancy": 1.0,
+      "reason": "The response directly answers the question by stating the number of ECTS credits for the program.",
+      "raw_judge_output": "SCORE: 1.0\nREASON: The response directly answers the question by stating the number of ECTS credits for the program."
+    },
+    {
+      "id": "Q03",
+      "category": "Πραγματολογικό",
+      "question": "Ποιες ημέρες και ώρες εξυπηρετεί η Γραμματεία τους προπτυχιακούς φοιτητές;",
+      "answer": "Η Γραμματεία του Τμήματος εξυπηρετεί τους προπτυχιακούς φοιτητές **κάθε Δευτέρα, Τετάρτη και Παρασκευή**, από **11:30 π.μ. έως 14:00 μ.μ.**.",
+      "answer_relevancy": 1.0,
+      "reason": "The response directly provides the specific days and hours the Secretariat serves undergraduate students, fully addressing the question.",
+      "raw_judge_output": "SCORE: 1.0\nREASON: The response directly provides the specific days and hours the Secretariat serves undergraduate students, fully addressing the question."
+    },
+    {
+      "id": "Q04",
+      "category": "Πραγματολογικό",
+      "question": "Ποιο είναι το email της Γραμματείας του Τμήματος Ψηφιακών Συστημάτων;",
+      "answer": "Δεν βρέθηκε σχετική πληροφορία για το email της Γραμματείας του Τμήματος Ψηφιακών Συστημάτων στο παρεχόμενο κείμενο.",
+      "answer_relevancy": 1.0,
+      "reason": "The response directly addresses the question by stating that the requested email information is not available in the provided text.",
+      "raw_judge_output": "SCORE: 1.0\nREASON: The response directly addresses the question by stating that the requested email information is not available in the provided text."
+    },
+    {
+      "id": "Q05",
+      "category": "Παραφρασμένο",
+      "question": "Πόσα χρόνια χρειάζονται κανονικά για να ολοκληρώσω τις προπτυχιακές σπουδές μου στο Τμήμα;",
+      "answer": "Δεν βρέθηκε σχετική πληροφορία στο παρεχόμενο κείμενο σχετικά με το πόσα χρόνια απαιτούνται κανονικά για την ολοκλήρωση των προπτυχιακών σπουδών στο Τμήμα Ψηφιακών Συστημάτων.",
+      "answer_relevancy": 1.0,
+      "reason": "The response directly addresses the question by stating that the required information about the typical duration of undergraduate studies is not available in the provided text.",
+      "raw_judge_output": "SCORE: 1.0\nREASON: The response directly addresses the question by stating that the required information about the typical duration of undergraduate studies is not available in the provided text."
+    },
+    {
+      "id": "Q06",
+      "category": "Παραφρασμένο",
+      "question": "Μπορώ κατά τη διάρκεια των σπουδών μου να ακολουθήσω κάποια συγκεκριμένη κατεύθυνση;",
+      "answer": "Ναι. Στο Τμήμα Ψηφιακών Συστημάτων μπορείς να προσαρμόσεις το πρόγραμμα σπουδών σου ώστε να ακολουθήσεις μία από τις οριζόντιες κατευθύνσεις που προσφέρονται:\n\n* **Οριζόντια Κατεύθυνση «Ασφάλεια» (ΑΣΦ)** – μέσω των μαθημάτων επιλογής που εστιάζουν στην ασφάλεια των ψηφιακών συστημάτων.  \n* **Οριζόντια Κατεύθυνση «Παιδαγωγική & Διδακτική Ικανότητα» (ΠΔΙ)** – μέσω των 6 μαθημάτων επιλογής που παρέχουν Παιδαγωγική και Διδακτική Ικανότητα στους αποφοίτους.\n\nΣυνολικά υπάρχουν **10 μαθήματα επιλογής** που μπορούν να επιλεγούν από τα υποχρεωτικά και τα άλλα μαθήματα επιλογής όλων των κατευθύνσεων. Έτσι, επιλέγοντας τα κατάλληλα μαθήματα, μπορείς να εμβαθύνεις στη μία από τις παραπάνω οριζόντιες κατευθύνσεις κατά τη διάρκεια των σπουδών σου.",
+      "answer_relevancy": 1.0,
+      "reason": "The response directly answers the user's question about whether they can follow a specific direction during their studies, providing relevant details.",
+      "raw_judge_output": "SCORE: 1.0\nREASON: The response directly answers the user's question about whether they can follow a specific direction during their studies, providing relevant details."
+    },
+    {
+      "id": "Q07",
+      "category": "Παραφρασμένο",
+      "question": "Αν θέλω να μιλήσω από κοντά με τη Γραμματεία για ένα θέμα των σπουδών μου, πότε μπορώ να πάω;",
+      "answer": "Δυστυχώς, στο παρεχόμενο κείμενο δεν υπάρχει πληροφορία σχετικά με τις ώρες λειτουργίας ή τα ωράρια επίσκεψης της Γραμματείας του Τμήματος Ψηφιακών Συστημάτων. Συνεπώς, δεν μπορώ να προσφέρω συγκεκριμένη απάντηση για το πότε μπορείτε να πάτε. Για λεπτομέρειες, θα πρέπει να επικοινωνήσετε απευθείας με τη Γραμματεία ή να συμβουλευτείτε τις επίσημες πηγές του τμήματος.",
+      "answer_relevancy": 1.0,
+      "reason": "The response directly addresses the user's request by explaining that the needed information is not available and advises how to obtain it.",
+      "raw_judge_output": "SCORE: 1.0\nREASON: The response directly addresses the user's request by explaining that the needed information is not available and advises how to obtain it."
+    },
+    {
+      "id": "Q08",
+      "category": "Παραφρασμένο",
+      "question": "Υπάρχουν χώροι του Τμήματος όπου οι φοιτητές μπορούν να χρησιμοποιούν υπολογιστές και εργαστηριακό εξοπλισμό;",
+      "answer": "Ναι. Το Τμήμα διαθέτει εκπαιδευτικά εργαστήρια με περίπου 90 θέσεις εργασίας, στα οποία είναι εγκατεστημένοι υπολογιστές, το κατάλληλο λογισμικό και υλικό (π.χ. routers) για όλα τα εργαστηριακά μαθήματα του προπτυχιακού προγράμματος σπουδών. Επιπλέον, στο εργαστήριο του ημιωρού υπάρχει σύγχρονο τηλεπικοινωνιακό εξοπλισμό. Τα εργαστήρια είναι προσβάσιμα σε όλους τους φοιτητές και φοιτήτριες του Τμήματος όταν δεν διεξάγονται μαθήματα.",
+      "answer_relevancy": 1.0,
+      "reason": "The response directly answers that the department has labs with computers and equipment, fully addressing the question.",
+      "raw_judge_output": "SCORE: 1.0\nREASON: The response directly answers that the department has labs with computers and equipment, fully addressing the question."
+    },
+    {
+      "id": "Q09",
+      "category": "Εξειδικευμένοι όροι",
+      "question": "Ποιος είναι ο κωδικός και πόσα ECTS έχει το μάθημα «Γλώσσα Προγραμματισμού C»;",
+      "answer": "Ο κωδικός του μαθήματος «Γλώσσα Προγραμματισμού C» είναι **ΨΣ-501** και το μάθημα έχει **7 πιστωτικές μονάδες (ECTS)**.",
+      "answer_relevancy": 1.0,
+      "reason": "The response directly provides the requested course code and the number of ECTS credits.",
+      "raw_judge_output": "SCORE: 1.0\nREASON: The response directly provides the requested course code and the number of ECTS credits."
+    },
+    {
+      "id": "Q10",
+      "category": "Εξειδικευμένοι όροι",
+      "question": "Ποιος είναι ο κωδικός του μαθήματος «Πτυχιακή Εργασία»;",
+      "answer": "Ο κωδικός του μαθήματος «Πτυχιακή Εργασία» είναι **ΨΣ-906**· υπάρχει επίσης δεύτερη ενότητα του ίδιου μαθήματος με κωδικό **ΨΣ-907**. (Πηγή: CONTEXT)",
+      "answer_relevancy": 1.0,
+      "reason": "The response directly provides the course code(s) requested, fully addressing the question.",
+      "raw_judge_output": "SCORE: 1.0\nREASON: The response directly provides the course code(s) requested, fully addressing the question."
+    },
+    {
+      "id": "Q11",
+      "category": "Εξειδικευμένοι όροι",
+      "question": "Πόσες πιστωτικές μονάδες έχει το μάθημα «Διαδίκτυο των Πραγμάτων»;",
+      "answer": "Το μάθημα «Διαδίκτυο των Πραγμάτων» έχει **5 πιστωτικές μονάδες**.",
+      "answer_relevancy": 1.0,
+      "reason": "The response directly answers the question by stating the number of credit units for the specified course.",
+      "raw_judge_output": "SCORE: 1.0\nREASON: The response directly answers the question by stating the number of credit units for the specified course."
+    },
+    {
+      "id": "Q12",
+      "category": "Εξειδικευμένοι όροι",
+      "question": "Ποιοι διδάσκουν το μάθημα «Μεθοδολογίες Ανάπτυξης Πληροφοριακών Συστημάτων»;",
+      "answer": "Το μάθημα «Μεθοδολογίες Ανάπτυξης Πληροφοριακών Συστημάτων» διδάσκεται από τους καθηγητές **Ανδρέα Μενύθα** και **Ευάγγελο Χαλεπλίδη**.",
+      "answer_relevancy": 1.0,
+      "reason": "The response directly answers the question by naming the instructors of the specified course.",
+      "raw_judge_output": "SCORE: 1.0\nREASON: The response directly answers the question by naming the instructors of the specified course."
+    },
+    {
+      "id": "Q13",
+      "category": "Σύνθετο",
+      "question": "Τι πρέπει να παρακολουθήσει ένας φοιτητής στο 8ο εξάμηνο εκτός από την Πτυχιακή Εργασία;",
+      "answer": "Στο 8ο εξάμηνο, εκτός από την Πτυχιακή Εργασία, ο φοιτητής οφείλει να παρακολουθήσει:\n\n1. **Ένα υποχρεωτικό μάθημα δευτερεύουσας κατεύθυνσης (ΥΔΚ)** της κατεύθυνσης που έχει επιλέξει·  \n2. **Τέσσερα μαθήματα επιλογής (Ε)** από τα διαθέσιμα μαθήματα όλων των κατευθύνσεων, τα οποία μπορεί να προέρχονται και από τα υποχρεωτικά μαθήματα των άλλων δευτερευουσών κατευθύνσεων.",
+      "answer_relevancy": 1.0,
+      "reason": "The response directly lists the courses a student must attend in the 8th semester besides the thesis, fully addressing the question.",
+      "raw_judge_output": "SCORE: 1.0\nREASON: The response directly lists the courses a student must attend in the 8th semester besides the thesis, fully addressing the question."
+    },
+    {
+      "id": "Q14",
+      "category": "Σύνθετο",
+      "question": "Πότε δηλώνεται η Πτυχιακή Εργασία και πώς υπολογίζεται στο πρόγραμμα σπουδών;",
+      "answer": "Η Πτυχιακή Εργασία δηλώνεται για το **7ο και 8ο εξάμηνο** σπουδών και **υπολογίζεται ως 2 μαθήματα** στο πρόγραμμα σπουδών.",
+      "answer_relevancy": 1.0,
+      "reason": "The response directly answers both parts of the question, stating when the thesis is declared and how it is counted in the curriculum.",
+      "raw_judge_output": "SCORE: 1.0\nREASON: The response directly answers both parts of the question, stating when the thesis is declared and how it is counted in the curriculum."
+    },
+    {
+      "id": "Q15",
+      "category": "Σύνθετο",
+      "question": "Πόσο διαρκεί η Πρακτική Άσκηση και σε ποια περίοδο του έτους μπορεί να πραγματοποιηθεί;",
+      "answer": "Η Πρακτική Άσκηση διαρκεί τρεις (3) μήνες πλήρους απασχόλησης και μπορεί να πραγματοποιηθεί κατά τους μήνες Μάρτιο έως Σεπτέμβριο, με την προϋπόθεση ότι θα έχει ολοκληρωθεί το αργότερο έως τις 30 Σεπτεμβρίου.",
+      "answer_relevancy": 1.0,
+      "reason": "The response directly answers both parts of the question, specifying the duration and the permissible time period.",
+      "raw_judge_output": "SCORE: 1.0\nREASON: The response directly answers both parts of the question, specifying the duration and the permissible time period."
+    },
+    {
+      "id": "Q16",
+      "category": "Σύνθετο",
+      "question": "Τι είδη μαθημάτων περιλαμβάνει το Πρόγραμμα Προπτυχιακών Σπουδών και τι ισχύει για τα μαθήματα επιλογής;",
+      "answer": "**Τύποι μαθημάτων στο Π.Π.Σ. του Τμήματος Ψηφιακών Συστημάτων**\n\n1. **",
+      "answer_relevancy": 0.5,
+      "reason": "The response starts to address the question by introducing types of courses, but it is incomplete and does not provide the needed details about the course types or elective policies.",
+      "raw_judge_output": "SCORE: 0.5\nREASON: The response starts to address the question by introducing types of courses, but it is incomplete and does not provide the needed details about the course types or elective policies."
+    },
+    {
+      "id": "Q17",
+      "category": "Ανεπαρκής πληροφορία",
+      "question": "Ποιος είναι ο βαθμός μου στο μάθημα Γλώσσα Προγραμματισμού C;",
+      "answer": "Δυστυχώς, στο παρεχόμενο κείμενο δεν υπάρχει καμία πληροφορία σχετικά με τον προσωπικό σας βαθμό στο μάθημα «Γλώσσα Προγραμματισμού C». Συνεπώς, δεν είναι δυνατόν να απαντηθεί η ερώτησή σας με βάση τα διαθέσιμα δεδομένα.",
+      "answer_relevancy": 1.0,
+      "reason": "The response directly addresses the user's question by stating that the needed information is not available, which is a relevant answer.",
+      "raw_judge_output": "SCORE: 1.0\nREASON: The response directly addresses the user's question by stating that the needed information is not available, which is a relevant answer."
+    },
+    {
+      "id": "Q18",
+      "category": "Ανεπαρκής πληροφορία",
+      "question": "Έχει εγκριθεί η δήλωση μαθημάτων μου για το τρέχον εξάμηνο;",
+      "answer": "Δεν βρέθηκε σχετική πληροφορία στο παρεχόμενο κείμενο σχετικά με το αν έχει εγκριθεί η δήλωση μαθημάτων σας για το τρέχον εξάμηνο.",
+      "answer_relevancy": 1.0,
+      "reason": "The response directly addresses the user's question by stating that the needed information is not available, which is a relevant answer.",
+      "raw_judge_output": "SCORE: 1.0\nREASON: The response directly addresses the user's question by stating that the needed information is not available, which is a relevant answer."
+    },
+    {
+      "id": "Q19",
+      "category": "Ανεπαρκής πληροφορία",
+      "question": "Πόσα μαθήματα έχω περάσει μέχρι σήμερα;",
+      "answer": "Σύμφωνα με τις πληροφορίες του CONTEXT, μέχρι την αρχή του τρίτου έτους σπουδών έχουν ολοκληρωθεί **22 μαθήματα κορμού**. Άρα μέχρι σήμερα έχετε περάσει **22 μαθήματα**.",
+      "answer_relevancy": 1.0,
+      "reason": "The response directly answers the question by stating the number of courses passed.",
+      "raw_judge_output": "SCORE: 1.0\nREASON: The response directly answers the question by stating the number of courses passed."
+    },
+    {
+      "id": "Q20",
+      "category": "Ανεπαρκής πληροφορία",
+      "question": "Πότε ακριβώς θα αποφοιτήσω;",
+      "answer": "Δεν βρέθηκε σχετική πληροφορία στο παρεχόμενο κείμενο σχετικά με την ημερομηνία αποφοίτησής σας.",
+      "answer_relevancy": 1.0,
+      "reason": "The response directly addresses the question by stating that no information about the graduation date is available.",
+      "raw_judge_output": "SCORE: 1.0\nREASON: The response directly addresses the question by stating that no information about the graduation date is available."
+    }
+  ]
+}
