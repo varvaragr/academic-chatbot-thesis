@@ -4,7 +4,7 @@ import unicodedata
 from pathlib import Path
 
 INPUT_FILE = Path("ds_content_v2_final.json")
-OUTPUT_FILE = Path("ds_content_v2_faculty_aggregated.json")
+OUTPUT_FILE = Path("base2.json"")
 
 END_MARKERS = [
     "Σύντομο βιογραφικό", "Βιογραφικό", "Ερευνητικά ενδιαφέροντα",

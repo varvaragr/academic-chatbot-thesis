@@ -20,11 +20,11 @@ V2 was developed after testing the original system and observing retrieval limit
 
 ## Files
 
-- `build_faculty_aggregation.py` — creates structured faculty-course records.
-- `ds_content_v2_faculty_aggregated.json` — expanded V2 knowledge corpus.
-- `build_index_v2_faculty.py` — builds the V2 SQLite vector index.
-- `rag_api_v2_faculty.py` — Flask RAG backend.
-- `chainlit_app_v2.py` — Chainlit user interface.
+- `build_knowledge_base.py` — creates structured faculty-course records.
+- `base2.json` — expanded V2 knowledge corpus.
+- `build_index2.py` — builds the V2 SQLite vector index.
+- `rag_api2.py` — Flask RAG backend.
+- `chainlit_app2.py` — Chainlit user interface.
 - `comparison_results.md` — summary of final V2 validation tests.
 
 The generated SQLite vector database is not included because it can be rebuilt locally.

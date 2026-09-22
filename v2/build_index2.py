@@ -4,7 +4,7 @@ import sqlite3
 import hashlib
 from langchain_huggingface import HuggingFaceEmbeddings
 
-DATA_FILE = os.getenv("DATA_FILE_V2", "ds_content_v2_faculty_aggregated.json")
+DATA_FILE = os.getenv("DATA_FILE_V2", "base2.json")
 DB_FILE = os.getenv("DB_FILE_V2", "chunks_v2_faculty.db")
 EMBED_MODEL = os.getenv("EMBED_MODEL_V2", "Alibaba-NLP/gte-multilingual-base")
 CHUNK_SIZE = 500
