@@ -48,7 +48,7 @@ Never commit API keys or `.env` files.
 ## Build the V2 index
 
 ```powershell
-python build_index_v2_faculty.py
+python build_index2.py
 ```
 
 This creates `chunks_v2_faculty.db`.
@@ -56,7 +56,7 @@ This creates `chunks_v2_faculty.db`.
 ## Run the backend
 
 ```powershell
-python rag_api_v2_faculty.py
+python rag_apι2.py
 ```
 
 The V2 API uses port `5001` by default.
@@ -66,7 +66,7 @@ The V2 API uses port `5001` by default.
 In a second terminal:
 
 ```powershell
-chainlit run chainlit_app_v2.py
+chainlit run chainlit_app2.py
 ```
 
 ## Validation
